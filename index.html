@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="css.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class=" bg-black" style="height: 100vh;">
+        <div class="w-100 d-flex justify-content-evenly bg-dark p-2 rounded-5 ">
+            <span class="text-light mt-3 fs-3  ">U_elprins</span>
+            <span class="text-warning mt-3 fs-5">currency-converter</span>
+        </div>
+
+        <div class="  justify-content-center row w-100">
+
+            <div style="height: 65vh;" id="center_div"
+                class=" mt-5 d-flex flex-column justify-content-center align-items-center rounded col-md-6 col-sm-9  ">
+
+                <div class="px-3 col-sm-12 d-flex align-items-center flex-column  gap-2">
+                    <span class="text-light px-3 fs-4 ">
+                        amount
+                    </span>
+                    <input type="text" placeholder=" defult value=1" class="bg-dark text-light  col-sm-9 col-md-4">
+                    <button class="chang"><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+                </div>
+                <div class="px-3 d-flex flex-column justify-content-center  align-items-center col-sm-6 ">
+                    <select class="form-select mt-4 text-light bg-dark  " id="select_1">
+
+                    </select>
+                    <select class="form-select mt-4 bg-dark text-light" id="select_2">
+                    </select>
+                    <span class="text-light mt-2 result fs-4 col-sm-12"></span>
+                    <button type="button" class="btn btn-success mt-4  col-sm-2 col-md-6">convert</button>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="all.min.js"></script>
+    <script src="index.js"></script>
+    <script src="bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
